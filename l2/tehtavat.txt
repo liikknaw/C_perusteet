@@ -1,0 +1,17 @@
+1. Tee ohjelma, joka kysyy käyttäjältä kaksi lukua ja tekee niille laskuoperaation yksinkertaisen
+valikon perusteella. Vaihtoehdot ovat summaa luvut yhteen ja kerro luvut keskenään. Suorita valinnan perusteella edellä mainitut operaatiot käyttäen hyväksi if - else if - else -rakennetta.
+
+2. Tee ohjelma, joka kysyy käyttäjältä luvun väliltä 10 – 200, laskee yhteen luvut nollasta kysyttyyn lukuun ja tulostaa vastauksen.
+
+3. Tee ohjelma, joka kysyy käyttäjältä kokonaisluvun väliltä 1 – 10 ja tulosta kaikki luvut väliltä 1 ja annettu luku
+
+4. Tee ohjelma, joka kysyy käyttäjältä liukuluvun. Tee sitten yksinkertainen valikko, jossa on kaksi vaihtoehtoa: (1) "Kerro piin arvo luvulla xx" ja (2) "Jaa piin arvo luvulla xx" siten, että luku xx on käyttäjän antama luku. Käytä valintarakenteena switch-case rakennetta. Määritä piin likiarvo vakioksi esikäsittelijän avulla ja käytä sitä laskutoimituksissa. Käytä piin arvossa ja liukuluvuissa kolmen desimaalin tarkkuutta (esim. 3.141). Jätä tulosteissa liukulukujen kokonaisosan leveys määrittämättä eli käytä formaattia %.3f.
+
+5. Tee ohjelma, jossa merkkijonon käsittely on toteutettu siten, että varaat merkkitaulukon ohjelmassasi ja ylläpidät muuttujassa merkkijonon pituutta eikä merkkijonossa siis olekaan loppumerkkiä. Ohjelman tulee pyöriä niin kauan, kunnes käyttäjä haluaa lopettaa sen. Ohjelmassa tulee olla seuraava valikko:
+1) Lisää uusi merkki
+2) Tyhjennä merkkijono
+3) Tulosta merkkijono
+0) Lopeta
+Varaa ohjelman alussa merkkitaulukko, jonka koko on 200 merkkiä käyttäen vakiota
+taulukon koon määrittämiseen. Toteuta yllä olevat toiminnot ohjelmassasi switch-case
+rakennetta käyttäen.
