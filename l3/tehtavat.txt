@@ -1,0 +1,11 @@
+1. Tee ohjelma, joka laskee luvun potenssin aliohjelmassa. Kysy luku ja potenssi käyttäjältä pääohjelmassa, välitä ne aliohjelmalle parametreina, suorita laskenta toistorakenteen avulla ja palauta laskun tulos aliohjelmasta pääohjelmaan paluuarvona.
+
+3. Tee ohjelma, joka kysyy 2 kokonaislukua, selvittää itse tehdyllä aliohjelmalla kumpi luvuista on suurempi ja pienempi sekä tulostaa sen jälkeen nämä näytölle. Toista sama kahdelle desimaaliluvulle ja mieti montako aliohjelmaa sinun kannattaa tehdä – riittääkö 1 tai 2 vai kannattaako tehdä joku muu määrä aliohjelmia? Katso esimerkkiajosta yksityiskohdat ja huomaa, että desimaalien tulostuksessa käytetään aina %5.2f formaattia.
+Lisää pääohjelman loppuun merkkijonojen vertailu siten, että pääohjelmassa vertaillaan ensin kokonaislukuja, sitten desimaalilukuja ja kolmantena merkkijonoja. Kysy kaksi nimeä, max 20 merkkiä, ja tulosta näytölle miten nämä nimet suhtautuvat toisiinsa merkkijonovertailufunktion strcmp-mukaan eli kumpi on suurempi ja pienempi vai ovatko ne yhtä suuria.
+
+4. Tee ohjelma, joka kysyy käyttäjältä merkkijonon, kopio sen toiseen merkkijonomuuttujaan ja lopuksi tulostaa molemmat merkkijonot päällekkäin näytölle. Käytä merkkijonon lukemiseen fgets()-funktiota, jolloin saat koko rivin välilyöntien kanssa ja muista huomioida rivinvaihtomerkki. Suorita merkkijonon kopiointi muistipaikkojen välillä käyttämättä strcpy-funktiota ja string.h-kirjastoa. Tämä onnistuu, kun teet kaksi omaa aliohjelmaa, joista
+1. yksi laskee parametrina tulevan merkkijonon pituuden (ts. vastaa strlen-funktiota, ks.
+man)
+2. toinen saa kaksi merkkitaulukkoa parametreinä ja se kopioi toisena parametrinä olevan
+merkkitaulukon sisällön ensimmäisenä parametrinä olevaan merkkitaulukkoon yksi
+merkki kerrallaan (ts. vastaa strcpy-funktiota, ks. man).
