@@ -1,0 +1,29 @@
+1. Luo tietue Kirja, joka sisältää kolme muuttujaa: kirjan nimi, painovuosi ja hyllypaikka.
+Kirjan nimi on merkkijono (max 50 merkkiä) kun painovuosi ja hyllypaikka ovat kokonaislukuja. Pyydä käyttäjältä tiedot tähän tietueeseen ja tulosta ne näytölle. Muista määritellä ohjelmassasi tietue (struct) ja vakio merkkijonon pituudelle. Ohjelmassa riittää olla yksi tietue, johon tallennat kirjan tiedot ja josta ne tulostetaan näytölle
+
+2. Tee ohjelma, joka kysyy kahden kokonaislukumatriisin alkiot käyttäjältä, laskee niiden summamatriisin ja tulostaa sen näytölle. Toteuta ratkaisusi 2x2 matriisina, kysy kahden
+matriisin alkiot käyttäjältä ja laske aina samoilla paikoilla olevien alkioiden arvot yhteen,
+sijoita ne summamatriisiin sekä tulosta matriisi. Toteuta yksi aliohjelma, jolla voit tulostaa
+kaikki kolme matriisia. Lähetä tulostusaliohjelmaan matriisien lisäksi merkkijono, jossa on
+tulostettavan matriisin nimi eli tällä kertaa ”Matriisi 1”, ”Matriisi 2” ja ”Summamatriisi”.
+
+3. Tee komentorivilaskin, joka pystyy laskemaan yhteen-, vähennys-, kerto- ja jakolaskuja.
+Käytä laskuoperaatioiden tunnistamiseen seuraavia merkkejä:
+• + yhteenlasku
+• - vähennyslasku
+• x kertolasku
+• / jakolasku
+Ohjelma ottaa vastaan komentoriviparametrejä, tulkitsee niistä luvut ja laskentaoperaation sekä suorittaa laskennan käyttäen liukulukija. Ohjelman on tarkistettava syöte ja virheen tapahtuessa se pystyy antamaan seuraavat virheilmoitukset:
+1. "Et antanut syötteitä.", jos komentorivillä ei ole parametreja
+2. "Virheellinen syöte.", jos ohjelma ei tunnista annettua laskuoperaatiota
+Tee ohjelma käyttämättä ylimääräisiä muuttujia ja toteuta sekä laskutoimitus että tulostus
+yhden printf-lauseen sisällä. Käyttäjältä luettavat parametrit ja operandi kannattaa tulostaa
+ensi toisessa printf-lauseessa, jotta ohjelmasi on selkeä ja helppolukuinen. Voit tässä printflauseessa käyttää merkkijonoja, jolloin desimaalilukujen muotoilusta ei tarvitse välittää.
+
+4. Tee valikkopohjainen ohjelma, jolla voit ylläpitää käyttäjätunnuksia sekä niihin liittyviä
+salasanoja. Ohjelmassa pitää pystyä lisäämään uusia käyttäjätunnuksia salasanojen kanssa,
+tulostamaan ne ja lopettamaan ohjelman käyttö.
+Käyttäjätunnus ja salasana ovat merkkijonoja, joiden pituus on 50 merkkiä ja tietueet tulee laittaa taulukkoon, jossa on tilaa 50 tunnukselle. Tietueiden hallinta taulukossa edellyttää kolmatta alkiota tietueeseen, ID, joka on juokseva numero ohjelman sisäiseen käyttöön ja joka kertoo käyttäjäntunnuksen paikan taulukossa. Käytä tietueen määrittelyssä hyväksi typedef –käskyä ja määritä em. maksimiarvot vakioiksi define-käskyllä. Ohjelmassa tulee olla pääohjelman lisäksi valikko-aliohjelma, joka tulostaa valikon ja palauttaa käyttäjän antaman valinnan numerona
+
+5. Tee ohjelma, joka laskee Fibonaccin luvun rekursiota hyväksi käyttäen. Kysy käyttäjältä
+luku, jolle lasket Fibonaccin luvun ja tulosta tulos näytölle.
